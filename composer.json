@@ -1,0 +1,15 @@
+{
+    "name": "triasbrata/project",
+    "description": "ini package utama dalam pengerjaan project tugas framework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Trias Bratayudhana",
+            "email": "triasbrata@gmail.com"
+        }
+    ],
+    "psr-4":{
+        "Bitdev\\Project" : "src/"
+    },
+    "require": {}
+}
