@@ -8,8 +8,10 @@
             "email": "triasbrata@gmail.com"
         }
     ],
-    "psr-4":{
-        "Bitdev\\Project" : "src/"
+    "autoload": {
+        "psr-4":{
+            "Bitdev\\Project":"src/"
+        }
     },
     "require": {}
 }
