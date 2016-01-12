@@ -1,6 +1,7 @@
 {
     "name": "triasbrata/project",
     "description": "ini package utama dalam pengerjaan project tugas framework",
+    "license":"Apache-2.0",
     "type": "project",
     "authors": [
         {
@@ -10,8 +11,10 @@
     ],
     "autoload": {
         "psr-4":{
-            "Bitdev\\Project":"src/"
+            "Bitdev\\Project\\":"src/"
         }
     },
-    "require": {}
+    "require": {
+        "php": ">=5.5.9"
+    }
 }
